@@ -55,6 +55,7 @@ end
 
 group :development do
   # Use the Puma web server [https://github.com/puma/puma]
+
 gem "puma", "~> 5.0"
 
   # Use console on exceptions pages [https://github.com/rails/web-console]
@@ -65,6 +66,8 @@ gem "puma", "~> 5.0"
 
   # Speed up commands on slow machines / big apps [https://github.com/rails/spring]
   # gem "spring"
+  
+gem "hotwire-livereload"
 end
 
 group :test do
